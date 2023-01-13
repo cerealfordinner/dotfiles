@@ -75,5 +75,4 @@ nnoremap ,d :action ContextDebug<CR>
 nnoremap ,n :action ActivateDebugToolWindow<CR>
 
 
-
 " Find more examples here: https://jb.gg/share-ideavimrc

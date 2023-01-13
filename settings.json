@@ -1,0 +1,47 @@
+{
+  "workbench.colorTheme": "Dark+ (WoW)",
+  "files.autoSave": "afterDelay",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "python.languageServer": "Pylance",
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "python.pythonPath": "C:\\Users\\cerealfordinner\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vim.leader": "<space>",
+  "vim.useSystemClipboard": true,
+  "Lua.workspace.library": [
+    "c:\\Users\\cerealfordinner\\.vscode\\extensions\\ketho.wow-api-0.9.0\\EmmyLua\\API",
+    "c:\\Users\\cerealfordinner\\.vscode\\extensions\\ketho.wow-api-0.9.0\\EmmyLua\\Optional"
+  ],
+  "Lua.telemetry.enable": false,
+  "vim.handleKeys": {
+    "<C-d>": true,
+    "<C-s>": false,
+    "<C-z>": false,
+    "<C-r>": true
+  },
+  "vim.useCtrlKeys": true,
+  "vim.insertModeKeyBindings": [
+  
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "Key": "shift+u",
+      "command": "extension.vim_ctrl+r",
+      "when": "textInputFocus && vim.mode != 'Insert'"
+    }
+  ]
+}
