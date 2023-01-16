@@ -30,8 +30,8 @@ nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
 nnoremap <c-j> <c-w>j
 nnoremap <c-k> <c-w>k
-nnoremap <TAB> :action PreviousTab<CR>
-nnoremap <s-TAB> :action NextTab<CR>
+nnoremap <s-TAB> :action PreviousTab<CR>
+nnoremap <TAB> :action NextTab<CR>
 nnoremap <Leader>en :action EditSourceInNewWindow<CR>
 nnoremap <Leader>n :action NextWindow<CR>
 nnoremap <leader>w :action CloseEditor<CR>
@@ -76,3 +76,4 @@ nnoremap ,n :action ActivateDebugToolWindow<CR>
 
 
 " Find more examples here: https://jb.gg/share-ideavimrc
+ Find more examples here: https://jb.gg/share-ideavimrc
