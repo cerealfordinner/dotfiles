@@ -39,7 +39,9 @@ nnoremap <Leader>q :action CloseContent<CR>
 nnoremap <Leader>qa :action CloseAllEditors<CR>
 ""Editing Source Code
 nnoremap [[ :action MethodUp<CR>
+nnoremap [l :action ReSharperGotoPrexErrorInSolution<CR>
 nnoremap ]] :action MethodDown<CR>
+nnoremap ]l :action ReSharperGotoNextErrorInSolution<CR>
 nnoremap zc :action CollapseRegion<CR>
 nnoremap zo :action ExpandRegion<CR>
 nnoremap <leader>zc :action CollapseAllRegions<CR>
@@ -49,6 +51,8 @@ nnoremap <c-r> :action RecentFiles<CR>
 nnoremap <leader>l :action RecentLocations<CR>
 nnoremap <leader>h  :action LocalHistory.ShowHistory<CR>
 nnoremap <leader>r  :action RenameElement<CR>
+vnoremap <leader>( <esc>`>a)<esc>`<i(<esc>
+vnoremap <leader>" <esc>`>a"<esc>`<i"<esc>
 nnoremap ge :action GotoNextError<CR>
 nnoremap gE :action GotoPreviousError<CR>
 ""Searching and Source Code Navigation
@@ -68,6 +72,7 @@ nnoremap gp :action QuickImplementations<CR>
 nnoremap gt :action GotoTest<CR>
 nnoremap gb :action Back<CR>
 nnoremap gf :action Forward<CR>
+nnoremap gl :action LocateInSolutionView<CR>
 ""Running and Debugging
 nnoremap <leader>b :action BuildSolutionAction<CR>
 nnoremap ,b :action ToggleLineBreakpoint<CR>
@@ -75,5 +80,5 @@ nnoremap ,d :action ContextDebug<CR>
 nnoremap ,n :action ActivateDebugToolWindow<CR>
 
 
+
 " Find more examples here: https://jb.gg/share-ideavimrc
- Find more examples here: https://jb.gg/share-ideavimrc
